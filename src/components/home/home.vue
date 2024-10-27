@@ -16,7 +16,7 @@ const count = ref(0)
             <n-button type="primary" @click="count++">Click here to give a like 👍 {{ count }}</n-button>
         </div>
         <p>
-            <n-image width="120" src="./Magnet---Build-Your-First-Website/hello.gif"></n-image>
+            <n-image width="120" src="./my-website/hello.gif"></n-image>
         </p>
     </div>
 </template>

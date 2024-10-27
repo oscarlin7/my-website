@@ -9,7 +9,7 @@ import about from "../components/about/about.vue"
 
 const routes = [
     {
-        path: "/Magnet---Build-Your-First-Website", // 这里需要改成你 Github 仓库的名称
+        path: "/my-website", // 这里需要改成你 Github 仓库的名称
         name: "landing",
         component: store.state.display.isMobile ? mLayout : Layout,
         children: [
