@@ -1,22 +1,72 @@
-<script setup lang='ts'>
+<script setup>
 import { ref } from 'vue'
-import {
-    NLayout, NLayoutHeader, NLayoutContent, NLayoutFooter
-} from 'naive-ui'
+import router from '../../router/router'
 </script>
 
 <template>
     <n-layout class="container">
-        <n-layout-header>
+        <n-layout-header class="header">
+            <n-flex :align="'center'" :justify="'space-between'">
+                <n-flex :align="'center'" class="logo" @click="router.push({ name: 'home' })">
+                    <n-avatar :width="24" style="border-radius: 8px;" src="./my-website/GreenLightGo/logo.png"></n-avatar>
+                    <b>
+                        GreenLight
+                        <span class="primaryColor">Go</span>
+                    </b>
+                </n-flex>
+                <n-flex :size="24">
+                    <n-button text @click="router.push({ name: 'mission' })">
+                        Mission
+                    </n-button>
+                    <n-button text @click="router.push({ name: 'development' })">
+                        Development History
+                    </n-button>
+                    <n-button text @click="router.push({ name: 'about' })">
+                        About
+                    </n-button>
+                    <n-button round style="box-shadow: var(--boxShadow-light);"
+                        @click="router.push({ name: 'support' })">
+                        Public Support
+                    </n-button>
+                </n-flex>
+            </n-flex>
         </n-layout-header>
-        <n-layout-content content-style="padding: 24px;">
+        <n-layout-content>
             <router-view />
         </n-layout-content>
+        <n-layout-footer>
+            <n-flex :justify="'right'">
+                <div>2024 Copyright © <span class="primaryColor">Oscar Lin</span>. All rights reserved.</div>
+            </n-flex>
+        </n-layout-footer>
     </n-layout>
 </template>
 
 <style lang='less' scoped>
 .container {
     min-height: 100vh;
+
+    .header {
+        padding: 24px;
+    }
+
+    .logo {
+        font-size: 24px;
+        cursor: pointer;
+        transition: all 0.2s;
+
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+
+    .n-layout-footer {
+        background: rgba(224, 224, 224, 0.2);
+        padding: 24px;
+
+        .copyright {
+            color: var(--primary-color)
+        }
+    }
 }
 </style>
