@@ -1,14 +1,17 @@
 <script setup>
 import { ref } from 'vue'
 import router from '../../router/router'
+
+const isApp = router.currentRoute.value.name.includes('app')
 </script>
 
 <template>
     <n-layout class="container">
-        <n-layout-header class="header">
+        <n-layout-header v-if="!isApp" class="header">
             <n-flex :align="'center'" :justify="'space-between'">
                 <n-flex :align="'center'" class="logo" @click="router.push({ name: 'home' })">
-                    <n-avatar :width="24" style="border-radius: 8px;" src="./my-website/GreenLightGo/logo.png"></n-avatar>
+                    <n-avatar :width="24" style="border-radius: 8px;"
+                        src="./my-website/GreenLightGo/logo.png"></n-avatar>
                     <b>
                         GreenLight
                         <span class="primaryColor">Go</span>
@@ -16,7 +19,7 @@ import router from '../../router/router'
                 </n-flex>
                 <n-flex :size="24">
                     <n-button text @click="router.push({ name: 'mission' })">
-                        Mission
+                        Design Detail
                     </n-button>
                     <n-button text @click="router.push({ name: 'development' })">
                         Development History
@@ -34,7 +37,7 @@ import router from '../../router/router'
         <n-layout-content>
             <router-view />
         </n-layout-content>
-        <n-layout-footer>
+        <n-layout-footer v-if="!isApp">
             <n-flex :justify="'right'">
                 <div>2024 Copyright © <span class="primaryColor">Oscar Lin</span>. All rights reserved.</div>
             </n-flex>

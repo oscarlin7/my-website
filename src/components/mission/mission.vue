@@ -18,19 +18,22 @@ const scrollToBottom = async (frame) => {
                 </n-gi>
                 <n-gi :span="10" :offset="2">
                     <h2>Why did I make this?</h2>
-                    <p>Congue senectus viverra; augue vulputate placerat lacinia. Ante mollis aliquet proin
-                        gravida etiam. Aptent cras tortor rutrum nisi orci. Himenaeos mattis felis habitant
-                        interdum finibus a orci diam. Ligula proin efficitur et donec efficitur eros vehicula.
-                        Lobortis nibh magnis curae aenean velit maximus fringilla placerat? Nunc gravida ac interdum
-                        tempus
-                        nunc imperdiet massa class.</p>
-                    <h2>Posuere leo natoque dolor etiam?</h2>
-                    <p>Magna varius posuere proin porta suspendisse. Himenaeos fermentum pellentesque elementum
-                        a lacinia. Vivamus morbi vivamus vitae tempus dictumst platea. Placerat laoreet taciti
-                        blandit congue; dolor sociosqu neque. Potenti
-                        adipiscing non vehicula orci pretium feugiat curabitur nullam. Cras consectetur ad
-                        consectetur, sed fermentum malesuada fames nisi.</p>
-                    <n-button style="margin-top: 12px" type="primary" @click="scrollToBottom(block2)">
+                    <p>It all started with a frustrating experience in my hometown of Xiamen. There is a traffic light
+                        near my building, where the pedestrian green light lasts much shorter than the red light, and
+                        there is no clear indication of the remaining seconds. </p>
+                    <p>This created several problems for me:
+                        when I was some distance away from the light, I often didn’t know whether I should rush to catch
+                        the green light or wait it out. Additionally, the long waiting time during the red light would
+                        waste valuable minutes, leaving me feeling irritated and frustrated.</p>
+                    <p>
+                        These everyday issues inspired me to create <b>GreenLight
+                            Go</b>, a tool that helps predict whether you
+                        can make the next green light, saving time and reducing unnecessary stress.</p>
+                    <h2>Mission</h2>
+                    <p>My mission is simple: to reduce waiting time at traffic lights and make your journey more
+                        efficient. I aim to leverage technology to make city traffic smarter and more convenient for
+                        everyone.</p>
+                    <n-button style="margin-top: 12px" type="primary" round @click="scrollToBottom(block2)">
                         Scroll Down
                     </n-button>
                 </n-gi>
@@ -40,26 +43,20 @@ const scrollToBottom = async (frame) => {
             <n-flex class="block2" :align="'center'">
                 <n-grid class="block2__inner">
                     <n-gi :span="10">
-                        <h1>Lorem ipsum odor amet?</h1>
-                        <p>Congue senectus viverra; augue vulputate placerat lacinia. Ante mollis aliquet proin
-                            gravida etiam. Aptent cras tortor rutrum nisi orci. Himenaeos mattis felis habitant
-                            interdum finibus a orci diam. Ligula proin efficitur et donec efficitur eros vehicula.
-                            Lobortis nibh magnis curae aenean velit maximus fringilla placerat? Suspendisse sociosqu
-                            vestibulum consequat at nostra fringilla montes libero. Nunc gravida ac interdum tempus
-                            nunc imperdiet massa class.</p>
-                        <h1>Posuere leo natoque dolor etiam?</h1>
-                        <p>Magna varius posuere proin porta suspendisse. Himenaeos fermentum pellentesque elementum
-                            a lacinia. Vivamus morbi vivamus vitae tempus dictumst platea. Placerat laoreet taciti
-                            blandit congue; dolor sociosqu neque. Ac posuere suspendisse ornare elit suspendisse.
-                            Nullam ut rhoncus eros bibendum tempus quis diam ullamcorper torquent. Potenti
-                            adipiscing non vehicula orci pretium feugiat curabitur nullam. Cras consectetur ad
-                            consectetur, sed fermentum malesuada fames nisi.</p>
+                        <h1>Design Details</h1>
+                        <p>The app’s design process focuses on seamless user experience and integration with existing
+                            infrastructure. QR codes are placed on existing traffic lights for users to scan.</p>
+                        <h2>Red light:</h2>
+                        <p>The app displays the remaining time for the red light in real time. Below this, there’s a
+                            "hurry up" button, which users can press to show their impatience. The app tracks how many
+                            people press this button and reports the data to Xiamen traffic authority.
+                        </p>
                     </n-gi>
                     <n-gi :span="14">
                         <n-flex :justify="'right'">
                             <n-flex vertical>
-                                <n-image :width="560" src="./my-website/GreenLightGo/mission/mission.png"
-                                    preview-disabled></n-image>
+                                <n-image style="border-radius: 12px" :width="560"
+                                    src="./my-website/GreenLightGo/mission/mission.png" preview-disabled></n-image>
                                 <n-flex :justify="'center'">
                                     <n-text :depth="3">Neque dui quam pretium matti elementum.</n-text>
                                 </n-flex>

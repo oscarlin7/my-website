@@ -7,11 +7,12 @@ import mission from "../components/mission/mission.vue"
 import development from "../components/development/development.vue"
 import about from "../components/about/about.vue"
 import support from "../components/support/support.vue"
+import app from "../components/app/app.vue"
 
 const routes = [
     {
         path: "/my-website/",
-        name: "early-riser",
+        name: "greenlight-go",
         component: store.state.display.isMobile ? mLayout : Layout,
         children: [
             {
@@ -20,7 +21,7 @@ const routes = [
                 component: home
             },
             {
-                path: "mission",
+                path: "design-detail",
                 name: "mission",
                 component: mission
             },
@@ -38,6 +39,11 @@ const routes = [
                 path: "about",
                 name: "about",
                 component: about
+            },
+            {
+                path: "app",
+                name: "app",
+                component: app
             }
         ]
     }

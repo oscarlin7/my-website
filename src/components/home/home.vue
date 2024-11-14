@@ -17,8 +17,8 @@ const count = ref(0)
                     </n-gi>
                     <n-gi :span="12">
                         <div>
-                            <div class="slogan">Integer aliquet feugiat natoque nisi interdum libero risus.</div>
-                            <div class="subtitle">Mattis interdum malesuada dignissim.</div>
+                            <div class="slogan">Your ultimate tool for predicting traffic light timings.</div>
+                            <div class="subtitle">With just a tap, you can know if you’ll make it through the next green light, helping you save time and avoid frustration.</div>
                         </div>
                         <div>
                             <n-button type="primary" round class="startBtn" @click="handleDownload(block2)">
@@ -52,13 +52,14 @@ const count = ref(0)
         }
 
         .slogan {
-            font-size: 32px;
+            font-size: 36px;
             font-weight: bold;
             line-height: 1.4;
         }
 
         .subtitle {
             margin-top: 48px;
+            margin-bottom: 24px;
             font-size: 18px;
         }
 
