@@ -27,9 +27,9 @@ const count = ref(0)
                                 href="https://oscarlin7.github.io/my-website/green-light-go" target="_blank">
                                 Start Here
                             </n-button>
-                            <!-- <n-button type="primary" round class="startBtn" @click="router.push({name: 'green-light-go'})">
+                            <n-button type="primary" round class="startBtn" @click="router.push({name: 'green-light-go'})">
                                 Start Here
-                            </n-button> -->
+                            </n-button>
                         </div>
                     </n-gi>
                 </n-grid>
@@ -39,13 +39,6 @@ const count = ref(0)
 </template>
 
 <style lang="less" scoped>
-@font-face {
-    font-family: 'Digital7';
-    src: url('E1234.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
 .content {
     width: 1200px;
     margin: 0 auto;
