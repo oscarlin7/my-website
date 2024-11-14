@@ -39,6 +39,13 @@ const count = ref(0)
 </template>
 
 <style lang="less" scoped>
+@font-face {
+    font-family: 'Digital7';
+    src: url('E1234.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .content {
     width: 1200px;
     margin: 0 auto;

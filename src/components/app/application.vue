@@ -34,9 +34,9 @@ function handleFinish() {
     countdownRef.value?.reset()
 }
 
-function readJSON(path) {
-    return axios('my-website/GreenLightGo/app/light.json' + path + '.json')
-}
+// function readJSON(path) {
+//     return axios('my-website/GreenLightGo/app/light.json' + path + '.json')
+// }
 </script>
 
 <template>
