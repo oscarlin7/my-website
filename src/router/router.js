@@ -21,6 +21,11 @@ const routes = [
                 component: home
             },
             {
+                path: "green-light-go",
+                name: "application",
+                component: application
+            },
+            {
                 path: "design-detail",
                 name: "mission",
                 component: mission
@@ -39,11 +44,6 @@ const routes = [
                 path: "about",
                 name: "about",
                 component: about
-            },
-            {
-                path: "app",
-                name: "application",
-                component: application
             }
         ]
     }

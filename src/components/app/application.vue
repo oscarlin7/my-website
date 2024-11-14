@@ -127,7 +127,7 @@ function readJSON(path) {
                                         :rail-color="changeColor(themeVars.successColor, { alpha: 0.2 })"
                                         :indicator-text-color="themeVars.successColor" :show-indicator="false" />
                                     <div style="font-size: 64px"><b>请通行</b></div>
-                                    <n-qr-code id="qr-code" value="https://oscarlin7.github.io/my-website/app" />
+                                    <n-qr-code id="qr-code" value="https://oscarlin7.github.io/my-website/green-light-go" />
                                 </div>
                             </n-flex>
                         </div>
