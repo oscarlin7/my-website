@@ -1,4 +1,4 @@
-import { createWebHistory, createRouter } from "vue-router";
+import { createWebHashHistory, createRouter } from "vue-router";
 import store from "../store/store";
 import Layout from "../components/Layout/layout.vue"
 import mLayout from "../components/Layout/mLayout.vue"
@@ -11,7 +11,7 @@ import application from "../components/app/application.vue"
 
 const routes = [
     {
-        path: "/my-website/",
+        path: "/",
         name: "greenlight-go",
         component: store.state.display.isMobile ? mLayout : Layout,
         children: [
@@ -50,9 +50,9 @@ const routes = [
 ];
 
 const router = createRouter({
-    history: createWebHistory(),
+    history: createWebHashHistory('/my-website/'),
     routes,
-});
+  });  
 
 router.afterEach(() => {
     window.scrollTo(0, 0)
