@@ -1,5 +1,5 @@
 <script setup>
-import { ref, computed } from 'vue'
+import { ref, watch } from 'vue'
 import axios from "axios";
 import { useThemeVars } from "naive-ui";
 import { changeColor } from 'seemly'
@@ -8,9 +8,7 @@ const themeVars = useThemeVars();
 
 const light = ref(false);
 
-const lightColor = computed(() => {
-    return light.value ? "#04ff00" : "#ff0000"
-})
+const lightColor = ref("#ff0000")
 
 const percentage = ref(100);
 
@@ -27,6 +25,14 @@ const renderCountdown = ({
 }) => {
     return `${String(seconds).padStart(2, "0")}`;
 };
+
+watch(light, newVal => {
+    if (newVal) {
+        lightColor.value = "#04ff00";
+    } else {
+        lightColor.value = "#ff0000";
+    }
+})
 
 function handleFinish() {
     duration.value = 10000;
@@ -127,7 +133,8 @@ function handleFinish() {
                                         :rail-color="changeColor(themeVars.successColor, { alpha: 0.2 })"
                                         :indicator-text-color="themeVars.successColor" :show-indicator="false" />
                                     <div style="font-size: 64px"><b>请通行</b></div>
-                                    <n-qr-code id="qr-code" value="https://oscarlin7.github.io/my-website/green-light-go" />
+                                    <n-qr-code id="qr-code"
+                                        value="https://oscarlin7.github.io/my-website/green-light-go" />
                                 </div>
                             </n-flex>
                         </div>
