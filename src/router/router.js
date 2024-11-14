@@ -7,7 +7,7 @@ import mission from "../components/mission/mission.vue"
 import development from "../components/development/development.vue"
 import about from "../components/about/about.vue"
 import support from "../components/support/support.vue"
-import app from "../components/app/app.vue"
+import application from "../components/app/application.vue"
 
 const routes = [
     {
@@ -42,8 +42,8 @@ const routes = [
             },
             {
                 path: "app",
-                name: "app",
-                component: app
+                name: "application",
+                component: application
             }
         ]
     }
