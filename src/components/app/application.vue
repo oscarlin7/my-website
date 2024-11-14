@@ -131,7 +131,7 @@ function handleFinish() {
                                         :indicator-text-color="themeVars.successColor" :show-indicator="false" />
                                     <div style="font-size: 64px"><b>请通行</b></div>
                                     <n-qr-code id="qr-code"
-                                        value="https://oscarlin7.github.io/my-website/application" />
+                                        value="https://oscarlin7.github.io/my-website/#/application" />
                                 </div>
                             </n-flex>
                         </div>
