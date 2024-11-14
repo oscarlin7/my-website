@@ -21,7 +21,7 @@ const routes = [
                 component: home
             },
             {
-                path: "green-light-go",
+                path: "application",
                 name: "application",
                 component: application
             },
