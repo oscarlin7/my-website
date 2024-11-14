@@ -1,5 +1,6 @@
 <script setup>
-import { ref } from 'vue'
+import { ref } from 'vue';
+import router from '../../router/router';
 
 const count = ref(0)
 </script>
@@ -18,10 +19,12 @@ const count = ref(0)
                     <n-gi :span="12">
                         <div>
                             <div class="slogan">Your ultimate tool for predicting traffic light timings.</div>
-                            <div class="subtitle">With just a tap, you can know if you’ll make it through the next green light, helping you save time and avoid frustration.</div>
+                            <div class="subtitle">With just a tap, you can know if you’ll make it through the next green
+                                light, helping you save time and avoid frustration.</div>
                         </div>
                         <div>
-                            <n-button type="primary" round class="startBtn" @click="handleDownload(block2)">
+                            <n-button type="primary" round class="startBtn" tag="a"
+                                href="https://oscarlin7.github.io/my-website/app" target="_blank">
                                 Start Here
                             </n-button>
                         </div>
