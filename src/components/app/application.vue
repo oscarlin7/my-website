@@ -1,44 +1,44 @@
 <script setup>
-// import { ref, watch } from 'vue'
-// import axios from "axios";
-// import { useThemeVars } from "naive-ui";
-// import { changeColor } from 'seemly'
+import { ref, watch } from 'vue'
+import axios from "axios";
+import { useThemeVars } from "naive-ui";
+import { changeColor } from 'seemly'
 
-// const themeVars = useThemeVars();
+const themeVars = useThemeVars();
 
-// const light = ref(false);
+const light = ref(false);
 
-// const lightColor = ref("#ff0000")
+const lightColor = ref("#ff0000")
 
-// const percentage = ref(100);
+const percentage = ref(100);
 
-// const duration = ref(35000);
+const duration = ref(35000);
 
-// const countdownRef = ref(null);
+const countdownRef = ref(null);
 
-// const countdownVal = ref([0, 100]);
+const countdownVal = ref([0, 100]);
 
-// const renderCountdown = ({
-//     hours,
-//     minutes,
-//     seconds
-// }) => {
-//     return `${String(seconds).padStart(2, "0")}`;
-// };
+const renderCountdown = ({
+    hours,
+    minutes,
+    seconds
+}) => {
+    return `${String(seconds).padStart(2, "0")}`;
+};
 
-// watch(light, newVal => {
-//     if (newVal) {
-//         lightColor.value = "#04ff00";
-//     } else {
-//         lightColor.value = "#ff0000";
-//     }
-// })
+watch(light, newVal => {
+    if (newVal) {
+        lightColor.value = "#04ff00";
+    } else {
+        lightColor.value = "#ff0000";
+    }
+})
 
-// function handleFinish() {
-//     duration.value = 10000;
-//     light.value = !light.value
-//     countdownRef.value?.reset()
-// }
+function handleFinish() {
+    duration.value = 10000;
+    light.value = !light.value
+    countdownRef.value?.reset()
+}
 
 // function readJSON(path) {
 //     return axios('my-website/GreenLightGo/app/light.json' + path + '.json')
@@ -46,8 +46,7 @@
 </script>
 
 <template>
-    <div>1</div>
-    <!-- <div>
+    <div>
         <div class="container">
             <n-flex :align="'center'">
                 <div class="iconContainer">
@@ -132,7 +131,7 @@
                                         :indicator-text-color="themeVars.successColor" :show-indicator="false" />
                                     <div style="font-size: 64px"><b>请通行</b></div>
                                     <n-qr-code id="qr-code"
-                                        value="https://oscarlin7.github.io/my-website/green-light-go" />
+                                        value="https://oscarlin7.github.io/my-website/application" />
                                 </div>
                             </n-flex>
                         </div>
@@ -140,7 +139,7 @@
                 </div>
             </n-flex>
         </div>
-    </div> -->
+    </div>
 </template>
 
 <style lang='less' scoped>

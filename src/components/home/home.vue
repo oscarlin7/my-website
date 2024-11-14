@@ -24,7 +24,7 @@ const count = ref(0)
                         </div>
                         <div>
                             <n-button type="primary" round class="startBtn" tag="a"
-                                href="https://oscarlin7.github.io/my-website/green-light-go" target="_blank">
+                                href="https://oscarlin7.github.io/my-website/application" target="_blank">
                                 Start Here
                             </n-button>
                             <n-button type="primary" round class="startBtn" @click="router.push({name: 'application'})">
