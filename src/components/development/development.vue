@@ -15,99 +15,112 @@ const scrollToBottom = async (frame) => {
             <n-divider />
             <n-grid :x-gap="24">
                 <n-gi :span="6">
-                    <h2>December 7, 2024</h2>
+                    <h2>November 15, 2024</h2>
                 </n-gi>
                 <n-gi :span="18">
-                    <h2>Himenaeos habitant curae tellus suscipit magna phasellus.</h2>
-                    <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Ac morbi condimentum maximus torquent libero
-                        lacinia hendrerit et. Pretium dui etiam ridiculus lobortis nam vitae massa justo aliquam.
-                        Lacinia praesent conubia litora pharetra aptent inceptos mus. Accumsan dapibus orci torquent
-                        facilisis ligula litora eleifend condimentum sed. Himenaeos semper lacinia suscipit parturient
-                        senectus lacinia tortor.</p>
-                    <h2>Aptent vulputate pellentesque nec ultrices pretium amet ornare et.</h2>
-                    <p>Nec scelerisque vel consequat fusce libero nec lacinia egestas. Dictum primis eleifend vivamus
-                        lacinia mattis; morbi ultricies convallis. Aptent tempor odio est felis blandit netus iaculis.
-                        Interdum magnis vel velit nisl platea a. Pretium habitasse feugiat tincidunt magna mattis.
-                        Suspendisse laoreet nam torquent quis dis ultrices sapien. Auctor volutpat in enim donec
-                        habitant fringilla ligula augue rhoncus. Gravida platea fusce lectus porta molestie tortor
-                        fusce. Purus netus accumsan diam dolor euismod pharetra. Euismod vel commodo; ipsum bibendum
-                        nisl aptent laoreet cras.</p>
+                    <h2>Building a Single-Page Vue Application</h2>
+                    <p>I used Vue Router to build a single-page application (SPA) that serves as a promotional platform
+                        for my app. The SPA includes five key pages: Home, Mission, Development History, About, and a
+                        special "Public Support" page. This setup allows users to easily navigate between sections
+                        without reloading the entire page, offering a smooth user experience.</p>
+                    <p>The "Home" page serves as an introduction to the app, while the "Mission" page outlines the app's
+                        goals and the problem it aims to solve. The "Development History" page provides a detailed
+                        account of the app's creation, and the "About" page offers information about me and my work. The
+                        "Public Support" page is dedicated to seeking the support of the Xiamen Traffic Bureau. This
+                        page highlights my plan to place QR codes on traffic lights, which users can scan to access the
+                        app—this will be the app’s primary promotional method. However, before proceeding, I need to
+                        secure the approval of the traffic bureau to implement this idea.</p>
+                    <p>By using Vue Router, I was able to organize the application’s pages efficiently, providing users
+                        with an intuitive navigation experience.</p>
                 </n-gi>
             </n-grid>
             <n-divider />
             <n-grid :x-gap="24">
                 <n-gi :span="6">
-                    <h2>November 27, 2024</h2>
+                    <h2>November 10, 2024</h2>
                 </n-gi>
                 <n-gi :span="18">
-                    <h2>Fusce etiam maecenas ullamcorper eleifend integer mattis.</h2>
-                    <p>Aptent ornare nascetur commodo aenean platea habitasse sodales. Vulputate interdum libero
-                        suspendisse nam turpis. Aliquet integer sodales finibus; enim nostra porta. Aliquam varius
-                        luctus vel; dolor quis vitae tincidunt. Eleifend commodo interdum erat in massa laoreet conubia
-                        nostra. Curae cras purus laoreet vivamus taciti odio laoreet. Fermentum cras sagittis lectus sit
-                        ex inceptos aliquet ultrices. Penatibus natoque fringilla at, dolor nostra primis netus.</p>
-                    <h2>Fames quam augue id conubia massa mollis libero pulvinar erat.</h2>
-                    <p>Penatibus maecenas felis sociosqu felis elementum vestibulum consequat efficitur. Adipiscing at
-                        taciti lectus facilisis blandit risus. Vulputate torquent bibendum turpis ut varius nisi posuere
-                        penatibus. Nam elit parturient commodo; fames natoque sodales parturient vivamus sed. Nisi
-                        sodales nascetur quis fringilla semper. Class venenatis facilisis dapibus; ridiculus justo
-                        himenaeos. Nunc libero torquent viverra augue hac nisl.</p>
-                    <h2>Curae blandit netus convallis ullamcorper nascetur sed.</h2>
-                    <p>Neque facilisi eleifend metus vel morbi phasellus mus arcu. Dignissim augue conubia mauris taciti
-                        iaculis. Luctus ridiculus facilisis elementum; accumsan ante curabitur feugiat dis. Natoque
-                        vulputate nibh id; mi vitae potenti aptent. Tincidunt class nascetur ac mollis aenean litora
-                        placerat cubilia. Arcu fames ante nec lobortis turpis ligula tortor magnis. Mauris scelerisque
-                        quis felis dolor donec eros nullam. Orci pellentesque fermentum luctus; tortor lobortis
-                        himenaeos. Volutpat ad pretium malesuada nostra libero vivamus quam feugiat odio.</p>
-                    <h2>Nam litora habitasse venenatis pretium luctus congue.</h2>
-                    <p>Sapien quis mauris urna; est magna ut curae. Natoque pharetra felis consequat; mauris eu posuere
-                        aliquet. Erat interdum ligula tempus id etiam arcu lacus. Imperdiet dignissim dictum purus quis
-                        sodales ante magna curabitur. Ligula risus penatibus viverra dui dui sapien. Consectetur justo
-                        hac accumsan posuere ultricies risus litora inceptos. Laoreet taciti fermentum potenti curae
-                        libero fusce mauris tempor eros.</p>
-                </n-gi>
-            </n-grid>
-            <n-divider />
-            <n-grid :x-gap="24">
-                <n-gi :span="6">
-                    <h2>November 14, 2024</h2>
-                </n-gi>
-                <n-gi :span="18">
-                    <h2>Imperdiet per torquent senectus metus, scelerisque habitasse non cursus dis.</h2>
-                    <p>Purus elementum consequat integer natoque lacus cursus. Curabitur ultrices arcu tortor, sodales
-                        sem eleifend. Egestas litora cursus maecenas gravida ornare. Donec libero accumsan rutrum amet
-                        porttitor parturient nulla efficitur? Himenaeos leo ridiculus proin conubia ultricies morbi.
-                        Ornare senectus consectetur lacus et enim porta dictum. Ased mattis eros facilisi bibendum
-                        tellus ante maecenas placerat. Taciti mus ipsum magna finibus vitae.</p>
-                    <h2>Quisque in sapien magna leo orci ad aptent eros.</h2>
-                    <p>Eget semper phasellus ut eu, feugiat sed. Dictum dictum viverra lobortis id bibendum nisi ipsum
-                        cubilia. Nullam bibendum ridiculus tincidunt; nisi duis enim felis vel. Id tortor pharetra
-                        sociosqu non nisi in. Netus eleifend rutrum aenean bibendum ad iaculis sagittis mus. Metus ex
-                        diam tellus habitasse scelerisque.</p>
-                    <h2>Placerat porta enim nascetur, accumsan elit platea.</h2>
-                    <p>Pharetra egestas parturient phasellus curabitur proin ornare nam. Curabitur tempus erat augue sed
-                        quam sodales fermentum imperdiet. Neque lacus taciti sapien in placerat. Praesent etiam id quam
-                        ipsum maximus ipsum. Donec nascetur curae est quisque tincidunt cras. Condimentum sodales
-                        cubilia sapien nullam; amet id mattis natoque. Mattis torquent amet facilisis neque netus
-                        consectetur? Ac luctus maecenas habitant accumsan mus rhoncus convallis ligula. Lacinia lacus
-                        est; arcu mauris nascetur non consequat imperdiet.</p>
-                </n-gi>
-            </n-grid>
-            <n-divider />
-            <n-grid :x-gap="24">
-                <n-gi :span="6">
-                    <h2>November 9, 2024</h2>
-                </n-gi>
-                <n-gi :span="18">
-                    <h2>Tempor finibus mauris vivamus quis; metus diam senectus dignissim.</h2>
-                    <p>Erat accumsan praesent ad lacinia tortor nibh primis. Nulla purus imperdiet fringilla tristique
-                        ad laoreet inceptos. Interdum fermentum purus ut fames tincidunt sodales. Tincidunt posuere
-                        conubia dapibus consectetur nam habitasse. Avitae posuere nullam parturient in imperdiet; velit
-                        odio volutpat. Sociosqu tincidunt consectetur sem ac primis; adipiscing blandit. Nam ultrices
-                        sagittis luctus laoreet a ut nisl nibh. Massa fusce ultricies integer amet morbi egestas. Tortor
-                        enim et diam; efficitur maximus aenean cras tempor. Morbi et imperdiet commodo ex venenatis
-                        blandit.
+                    <h2>Completing the Interface Design</h2>
+                    <p>I used the HTML, CSS, and JavaScript skills I had learned to complete the basic interface for my
+                        app. However, I encountered several technical challenges along the way.</p>
+                    <h3>Challenge 1</h3>
+                    <p>One issue I faced was choosing the right font for the countdown digits. After searching online, I
+                        found the "digital-7" font, which matched the style of the countdown timer on real traffic
+                        lights. However, I noticed that the number "1" had a different width compared to the other
+                        digits, which made the display look inconsistent. After some more searching, I found the "E1234"
+                        font, which resolved the issue and gave me a consistent look across all digits.</p>
+                    <h3>Challenge 2</h3>
+                    <p>Another challenge was designing the traffic light itself. Initially, I tried using containers
+                        with background colors and border-radius to represent the lights, but the result didn't match my
+                        expectations. In the end, I decided to use Photoshop to extract the traffic light image from a
+                        photo and then applied CSS positioning to overlay the countdown numbers on the image. This
+                        solution gave me the precise look I was aiming for and successfully recreated the traffic light
+                        style.
                     </p>
+                </n-gi>
+            </n-grid>
+            <n-divider />
+            <n-grid :x-gap="24">
+                <n-gi :span="6">
+                    <h2>November 3, 2024</h2>
+                </n-gi>
+                <n-gi :span="18">
+                    <h2>Website Deployment Using GitHub Pages</h2>
+                    <p>I successfully deployed my website using GitHub Pages. This process involved utilizing GitHub
+                        Actions to automate the deployment pipeline, ensuring seamless updates and deployment to the
+                        hosting environment. The website itself is built using Vue.js, which allows for the development
+                        of reactive, modern web applications with a smooth user experience.
+                    </p>
+                    <p>The decision to host the website on GitHub Pages was driven by several factors:</p>
+                    <ol>
+                        <li>
+                            <p><b>Free Hosting and Integration with GitHub</b>: GitHub Pages provides a free, reliable
+                                platform
+                                for hosting static websites, which is ideal for this project since it does not require a
+                                complex server-side infrastructure. The integration with GitHub made it easier to manage
+                                version control and the deployment process.</p>
+                        </li>
+                        <li>
+                            <p><b>Automation with GitHub Actions</b>: GitHub Actions allowed me to automate the
+                                deployment
+                                process, making it efficient and error-free. With each commit to the repository, GitHub
+                                Actions automatically builds and deploys the site to GitHub Pages, ensuring that the
+                                website
+                                is always up to date without manual intervention.</p>
+                        </li>
+                        <li>
+                            <p><b>Vue.js Compatibility</b>: GitHub Pages is well-suited for static websites, and since
+                                my
+                                site is built with Vue.js, which compiles down to static assets (HTML, CSS, JavaScript),
+                                it
+                                fits perfectly with GitHub Pages' capabilities.</p>
+                        </li>
+                    </ol>
+                </n-gi>
+            </n-grid>
+            <n-divider />
+            <n-grid :x-gap="24">
+                <n-gi :span="6">
+                    <h2>October 27, 2024</h2>
+                </n-gi>
+                <n-gi :span="18">
+                    <h2>Conceptualizing the App</h2>
+                    <p>I started reflecting on areas in my life where I could make improvements. During this reflection,
+                        I noticed a persistent issue with a traffic light near my home. Specifically, the green light
+                        duration for pedestrians is much shorter than the red light, and there is no clear indication of
+                        how many seconds remain on the green light. This created problems for me, as I often found
+                        myself unsure whether I should rush to cross when I was still some distance away from the light.
+                        Additionally, the long red light durations led to a lot of wasted time, causing frustration and
+                        stress.</p>
+                    <h2>Planing the App</h2>
+                    <p>To address this, I decided to develop an app that could help people better manage their time at
+                        traffic lights by providing real-time information about the light durations. The app would be
+                        easily accessible, and I wanted to keep its maintenance costs low. After considering various
+                        options, I chose to develop the solution as a web app. This would allow it to be accessible from
+                        any device without the need for complex installations or high maintenance overhead.</p>
+                    <p>The main objective of this app would be to offer a simple and intuitive interface, helping users
+                        know when it’s safe to cross and how long they might have to wait, reducing unnecessary
+                        frustration and improving the overall experience.</p>
                 </n-gi>
             </n-grid>
         </n-flex>

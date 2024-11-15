@@ -30,31 +30,30 @@ const scrollToBottom = async (frame) => {
                     </n-flex>
                 </n-gi>
                 <n-gi :span="14" :offset="2">
-                    <h2>Himenaeos habitant curae tellus suscipit magna phasellus.</h2>
-                    <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Ac morbi condimentum maximus torquent libero
-                        lacinia hendrerit et. Pretium dui etiam ridiculus lobortis nam vitae massa justo aliquam.
-                        Lacinia praesent conubia litora pharetra aptent inceptos mus. Accumsan dapibus orci torquent
-                        facilisis ligula litora eleifend condimentum sed. Himenaeos semper lacinia suscipit parturient
-                        senectus lacinia tortor.</p>
-                    <h2>Aptent nec pretium amet ornare et.</h2>
-                    <p>Nec scelerisque vel consequat fusce libero nec lacinia egestas. Dictum primis eleifend vivamus
-                        lacinia mattis; morbi ultricies convallis. Aptent tempor odio est felis blandit netus iaculis.
-                        Interdum magnis vel velit nisl platea a. Pretium habitasse feugiat tincidunt magna mattis.
-                        Suspendisse laoreet nam torquent quis dis ultrices sapien. Auctor volutpat in enim donec
-                        habitant fringilla ligula augue rhoncus. Gravida platea fusce lectus porta molestie tortor
-                        fusce. Purus netus accumsan diam dolor euismod pharetra. Euismod vel commodo; ipsum bibendum
-                        nisl aptent laoreet cras.</p>
-                    <h2>Nibh porta luctus praesent aptent ipsum.</h2>
-                    <p>Ultricies senectus interdum tellus pharetra fringilla aliquet dignissim tellus. Egestas ridiculus
-                        varius netus netus odio semper. Nunc ligula lectus scelerisque ac, lorem elit consequat
-                        malesuada aenean? Sociosqu nullam magnis blandit semper, mattis dictumst viverra augue. Leo
-                        pretium condimentum massa sem mattis lobortis curae. Pulvinar metus torquent cursus proin diam
-                        proin est scelerisque. Vel eros metus natoque ex rhoncus tortor. Maximus cras lectus dolor
-                        ultricies dui mattis. Rutrum lacinia pulvinar nec magna feugiat metus.</p>
-                    <p>Posuere gravida orci aenean justo id! Sed vehicula mi ex diam maximus luctus litora. Neque ex
-                        rhoncus bibendum integer sociosqu quam litora. Non commodo in sociosqu etiam fringilla.
-                        Ridiculus primis erat magnis, pellentesque ullamcorper non. Sociosqu semper fringilla dapibus
-                        aenean quam finibus habitant.</p>
+                    <h2>Investment for Traffic Data Access</h2>
+                    <p>In order to provide real-time and accurate traffic light data, one crucial requirement is access
+                        to traffic network data interfaces. Without this data, the app’s functionality will be limited
+                        to manually recording pedestrian light cycles. This would involve going to the traffic lights
+                        every day to record the pedestrian signals and then using algorithms to predict the light cycle.
+                        However, due to time and resource constraints, I would only be able to manually track the
+                        pedestrian signals at the traffic lights near my home.</p>
+                    <p>With an investment to gain access to a traffic data API or a similar data source, the scope of
+                        the app would expand significantly. By acquiring data for all the traffic lights in Xiamen, the
+                        app would be able to provide more accurate and comprehensive predictions for users citywide.
+                        This would allow us to scale the app’s functionality and reach a much broader audience, offering
+                        the convenience of real-time updates across the entire city.</p>
+                    <h2>Collaboration with Xiamen Traffic Bureau</h2>
+                    <p>The next step towards making this project a reality involves a collaborative effort with the
+                        Xiamen Traffic Bureau. The app's unique way of spreading its usage — by users scanning QR codes
+                        placed on pedestrian traffic lights — requires official approval and cooperation from the local
+                        government. This approach will make the app accessible to a wider range of users and ensure that
+                        the data collection process is integrated seamlessly with the traffic network.</p>
+                    <p>To facilitate this, I would need support from my parents to approach the Xiamen Traffic Bureau
+                        and initiate discussions regarding a potential collaboration. By working closely with the
+                        Traffic Bureau, we can gain the necessary permissions to place QR codes on traffic lights
+                        throughout the city and discuss the possibility of acquiring access to traffic data through
+                        their systems. This partnership would also help ensure that the app operates in a compliant and
+                        effective manner, benefiting both users and the city's traffic management system.</p>
                 </n-gi>
             </n-grid>
         </n-flex>
