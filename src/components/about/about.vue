@@ -17,9 +17,7 @@ const scrollToBottom = async (frame) => {
                 </n-gi>
                 <n-gi :span="14" :offset="2">
                     <div style="font-size: 128px"><b>Hello!</b></div>
-                    <n-text :depth="3" style="font-size: 18px">My name is Oscar Lin, and I am currently studying at
-                        Chiway Repton School Xiamen. Although I am still uncertain about the specific career path or
-                        university major I want to pursue, I am deeply passionate about science and technology.</n-text>
+                    <n-text :depth="3" style="font-size: 18px">My name is ...</n-text>
                     <div style="margin-top: 24px;">
                         <n-button type="primary" @click="scrollToBottom(block2)">
                             For more information
@@ -32,46 +30,39 @@ const scrollToBottom = async (frame) => {
             <n-flex class="block2" :align="'center'">
                 <n-grid class="block2__inner">
                     <n-gi :span="14">
-                        <h1>Interests and Hobbies</h1>
-                        <p>I have always been fascinated by technology, which is why I enjoy reading technical magazines
-                            and watching videos about the latest developments in tech. I love trying to implement some
-                            of the ideas and concepts that I come across, testing my abilities and expanding my
-                            knowledge in the process. One of my key interests is sports cars, which might seem like a
-                            personal hobby, but it’s also closely related to my passion for science and technology.
-                        </p>
-                        <p> Sports cars represent the cutting edge of engineering, design, and innovation. Every detail,
-                            from aerodynamics to engine performance, is meticulously crafted, and the ability to
-                            understand and appreciate this engineering fascinates me. Sports cars give me a practical
-                            context for applying scientific principles and engineering concepts, which is why I am drawn
-                            to them. The precision, speed, and technology behind these cars inspire me to think about
-                            how I can contribute to such innovations in the future.</p>
-                        <h1>Why I am Interested in STEM</h1>
-                        <p>My interest in STEM (Science, Technology, Engineering, and Mathematics) stems from my
-                            curiosity about how things work and how they can be improved. From a young age, I have
-                            always been fascinated by the mechanics of machines, from simple gadgets to complex systems
-                            like cars and computers. This curiosity naturally led me to explore more about the
-                            technological developments happening around the world.</p>
-                        <p>The idea that science and engineering
-                            can solve real-world problems and make life better for everyone is something that drives me.
-                            I’m especially interested in how technology can shape our future, making industries more
-                            efficient, sustainable, and innovative. Whether it’s developing smarter devices, improving
-                            transportation systems, or pushing the boundaries of artificial intelligence, I want to be a
-                            part of these advancements. My passion for STEM is not just about understanding how things
-                            work but about being able to contribute to creating something new and meaningful in the
-                            field.</p>
+                        <h1>Integer aliquet feugiat interdum libero risus</h1>
+                        <p>Vivamus quam nibh platea tempor; malesuada sagittis phasellus. Gravida mattis iaculis rutrum
+                            mi sagittis vel duis dolor. Class condimentum semper aenean accumsan litora dictum. Sed
+                            class eu congue integer placerat. Auctor volutpat ut taciti mi etiam. Quam vel tristique
+                            duis varius porttitor mus quisque adipiscing.</p>
+                        <p> Praesent diam elit congue, adipiscing cubilia
+                            suspendisse odio. Sociosqu tincidunt lobortis conubia malesuada elementum enim. Convallis
+                            tempus faucibus duis quam eros tempus dui penatibus!</p>
+                        <h1>Mi massa at proin ullamcorper mi</h1>
+                        <p>Ut class nisi nulla molestie ex curae fusce. Mus aliquet eros porttitor praesent curae dolor.
+                            Ullamcorper ante nostra blandit porttitor primis justo massa. Sem ex sem venenatis mi ad.
+                            Consectetur aliquet rhoncus curae bibendum phasellus ut tempor. Mattis ultrices etiam non;
+                            donec torquent nullam. Erat sodales elementum; taciti vitae eleifend id tristique. Vivamus
+                            eget nam nostra orci ac parturient eu. Condimentum rutrum integer consectetur nisl felis
+                            curabitur fames mus.</p>
                     </n-gi>
                     <n-gi :span="8" :offset="2">
                         <n-flex>
                             <n-tag size="large">Sport Car</n-tag>
                             <n-tag size="large">HTML/CSS</n-tag>
                             <n-tag size="large">JavaScript</n-tag>
-                            <n-tag size="large">Science</n-tag>
-                            <n-tag size="large">Engineering </n-tag>
-                            <n-tag size="large">AI</n-tag>
-                            <n-tag size="large">Web App</n-tag>
-                            <n-tag size="large">Mathematics</n-tag>
-                            <n-tag size="large">Technology</n-tag>
+                            <n-tag size="large">Eu Cursus</n-tag>
+                            <n-tag size="large">Commodo </n-tag>
+                            <n-tag size="large">Purus Netus</n-tag>
+                            <n-tag size="large">Leadership</n-tag>
+                            <n-tag size="large">Phasellus</n-tag>
+                            <n-tag size="large">Homework Killer</n-tag>
                             <n-tag size="large">UI Design</n-tag>
+                            <n-tag size="large">Himenaeos</n-tag>
+                            <n-tag size="large">Donec</n-tag>
+                            <n-tag size="large">Peter</n-tag>
+                            <n-tag size="large">Meg</n-tag>
+                            <n-tag size="large">Stewie</n-tag>
                         </n-flex>
                     </n-gi>
                 </n-grid>
