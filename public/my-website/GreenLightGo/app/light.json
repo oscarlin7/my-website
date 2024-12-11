@@ -1,0 +1,50 @@
+[
+    {
+        "time": "12:04:07",
+        "light": true
+    },
+    {
+        "time": "12:04:32",
+        "light": false
+    },
+    {
+        "time": "12:06:17",
+        "light": true
+    },
+    {
+        "time": "12:06:42",
+        "light": false
+    },
+    {
+        "time": "15:01:07",
+        "light": true
+    },
+    {
+        "time": "15:01:32",
+        "light": false
+    },
+    {
+        "time": "16:28:07",
+        "light": true
+    },
+    {
+        "time": "16:28:32",
+        "light": false
+    },
+    {
+        "time": "16:30:14",
+        "light": true
+    },
+    {
+        "time": "16:33:32",
+        "light": false
+    },
+    {
+        "time": "16:35:07",
+        "light": true
+    },
+    {
+        "time": "16:35:22",
+        "light": false
+    }
+]

@@ -1,7 +1,7 @@
 {
     "name": "Green Light Go",
     "short_name": "App",
-    "start_url": "/my-website/#/application",
+    "start_url": "https://oscar.hillcodex.com/#/application",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#000000"
