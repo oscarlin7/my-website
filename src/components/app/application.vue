@@ -322,13 +322,13 @@ function readJSON() {
             position: absolute;
             bottom: 32px;
             left: calc(50% - 46px);
+            -webkit-text-size-adjust: 100% !important;
+            text-size-adjust: 100% !important;
+            -moz-text-size-adjust: 100% !important;
         }
 
         .walkingIcon {
             font-size: 50px;
-            -webkit-text-size-adjust: 100% !important;
-            text-size-adjust: 100% !important;
-            -moz-text-size-adjust: 100% !important;
             animation: blink 1s infinite;
         }
 
