@@ -40,7 +40,7 @@ const showModal = ref(false);
                 <n-grid style="align-items: center;">
                     <n-gi :span="10" style="text-align: center;">
                         <div>
-                            <n-image :src="'./my-website/GreenLightGo/mission/WechatIMG5.jpg'" width="180"></n-image>
+                            <n-qr-code :value="'https://oscarlin.hillcodex.com/#/application'" :size="180"></n-qr-code>
                         </div>
                         <div style="margin-top: 24px">
                             <n-text :depth="3">

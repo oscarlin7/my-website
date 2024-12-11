@@ -71,8 +71,8 @@ onMounted(() => {
                     <n-gi :span="12">
                         <n-flex :justify="'center'">
                             <n-flex vertical>
-                                <n-image style="border-radius: 12px" :width="240"
-                                    src="./my-website/GreenLightGo/mission/WechatIMG5.jpg" preview-disabled></n-image>
+                                <n-qr-code :value="'https://oscarlin7.github.io/my-website/#/application'"
+                                    :size="240"></n-qr-code>
                                 <n-flex :justify="'center'">
                                     <n-text :depth="3"></n-text>
                                 </n-flex>

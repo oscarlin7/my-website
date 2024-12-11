@@ -236,7 +236,7 @@ function readJSON() {
                                     :border-radius="4" :fill-border-radius="0" :color="'#d30000'" :circle-gap="0.5"
                                     :rail-color="changeColor(themeVars.errorColor, { alpha: 0.2 })"
                                     :indicator-text-color="themeVars.errorColor" :show-indicator="false" />
-                                <div style="font-size: 64px"><b>等待中</b></div>
+                                <div class="tipText" style="font-size: 64px"><b>等待中</b></div>
                             </div>
                         </div>
                         <div v-else>
@@ -313,6 +313,9 @@ function readJSON() {
             font-size: 82px;
             font-family: "Digital7";
             letter-spacing: -24px;
+            -webkit-text-size-adjust: 100% !important;
+            text-size-adjust: 100% !important;
+            -moz-text-size-adjust: 100% !important;
         }
 
         .icons {
@@ -323,6 +326,9 @@ function readJSON() {
 
         .walkingIcon {
             font-size: 50px;
+            -webkit-text-size-adjust: 100% !important;
+            text-size-adjust: 100% !important;
+            -moz-text-size-adjust: 100% !important;
             animation: blink 1s infinite;
         }
 
@@ -389,5 +395,12 @@ function readJSON() {
 
 .walkingIcon {
     filter: drop-shadow(0 0 5px #00ff00) drop-shadow(0 0 10px #00ff00) drop-shadow(0 0 20px #00ff00) drop-shadow(0 0 40px #00ff00);
+}
+
+.tipText {
+    font-size: 64px;
+    -webkit-text-size-adjust: 100% !important;
+    text-size-adjust: 100% !important;
+    -moz-text-size-adjust: 100% !important;
 }
 </style>
