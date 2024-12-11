@@ -71,7 +71,7 @@ onMounted(() => {
                     <n-gi :span="12">
                         <n-flex :justify="'center'">
                             <n-flex vertical>
-                                <n-qr-code :value="'https://oscarlin7.github.io/my-website/#/application'"
+                                <n-qr-code :value="'https://oscarlin.hillcodex.com/#/application'"
                                     :size="240"></n-qr-code>
                                 <n-flex :justify="'center'">
                                     <n-text :depth="3"></n-text>
@@ -89,7 +89,7 @@ onMounted(() => {
                         <n-flex :justify="'center'">
                             <n-flex vertical>
                                 <n-image style="border-radius: 12px" :width="240"
-                                    src="./my-website/GreenLightGo/mission/redlight.jpg" preview-disabled></n-image>
+                                    src="./my-website/GreenLightGo/mission/red.jpg" preview-disabled></n-image>
                             </n-flex>
                         </n-flex>
                     </n-gi>
@@ -119,7 +119,7 @@ onMounted(() => {
                         <n-flex :justify="'center'">
                             <n-flex vertical>
                                 <n-image style="border-radius: 12px" :width="240"
-                                    src="./my-website/GreenLightGo/mission/greenlight.jpg" preview-disabled></n-image>
+                                    src="./my-website/GreenLightGo/mission/green.jpg" preview-disabled></n-image>
                             </n-flex>
                         </n-flex>
                     </n-gi>

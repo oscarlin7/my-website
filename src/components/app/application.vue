@@ -116,6 +116,10 @@ async function correctTime() {
         light.value = closestRecord.light;
     }
 
+    if (currentTime.value > 99) {
+        currentTime.value = 99;
+    }
+
     console.log(`校准完成: ${light.value ? '绿灯' : '红灯'}，剩余时间: ${currentTime.value}秒`);
     handleProgress();
 }

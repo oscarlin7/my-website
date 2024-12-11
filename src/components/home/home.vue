@@ -1,6 +1,5 @@
 <script setup>
 import { ref } from 'vue';
-import router from '../../router/router';
 
 const showModal = ref(false);
 </script>
@@ -12,7 +11,7 @@ const showModal = ref(false);
                 <n-grid style="align-items: center;">
                     <n-gi :span="12">
                         <n-flex :justify="'center'">
-                            <n-image :width="220" src="./my-website/GreenLightGo/home/app-home.png"
+                            <n-image :width="220" src="./my-website/GreenLightGo/home/app-home.jpg"
                                 preview-disabled></n-image>
                         </n-flex>
                     </n-gi>
@@ -23,10 +22,6 @@ const showModal = ref(false);
                                 light, helping you save time and avoid frustration.</div>
                         </div>
                         <div>
-                            <!-- <n-button type="primary" round class="startBtn" tag="a"
-                                href="https://oscarlin7.github.io/my-website/#/application" target="_blank">
-                                Start Here
-                            </n-button> -->
                             <n-button type="primary" round class="startBtn" @click="showModal = true">
                                 Start Here
                             </n-button>

@@ -15,6 +15,158 @@ const scrollToBottom = async (frame) => {
             <n-divider />
             <n-grid :x-gap="24">
                 <n-gi :span="6">
+                    <h2>December 11, 2024</h2>
+                </n-gi>
+                <n-gi :span="18">
+                    <h2>Completing and Launching the First Version of My Web App</h2>
+                    <p>Today marks an exciting milestone: I completed the first version of my web app and officially
+                        published it on GitHub Pages! This version focuses on a single traffic light, which simplifies
+                        the project and allowed me to avoid using a backend or database. Instead, I decided to rely on a
+                        JSON file to store the traffic light’s data, making the app lightweight and easy to manage</p>
+                    <h4>How It Works:</h4>
+                    <ol>
+                        <li>
+                            <h4>Recording Traffic Light Cycles:</h4>
+                            <p>I started by observing and recording a complete cycle of the traffic light near my home.
+                                Using a video recording, I captured how long the red and green lights lasted during one
+                                full cycle. Since it’s impossible to monitor the traffic light for 24 hours straight, I
+                                recorded specific instances whenever I passed by the intersection. At home, I documented
+                                these observations into a JSON file, for example:</p>
+                            <ul>
+                                <li>16:28:07: Green light begins.</li>
+                                <li>16:28:32: Switches to red light.</li>
+                                <li>16:30:14: Switches back to green light.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h4>Using JSON for Predictions:</h4>
+                            <p>The JSON file acts as a database of time-stamped records for red and green light changes.
+                                When a user opens the app, it checks the JSON file for data matching the current time.
+                                If no exact match exists, the app uses the default traffic light durations and the
+                                closest recorded time to estimate the current state and the remaining time before the
+                                light changes.</p>
+                        </li>
+                        <li>
+                            <h4>Gradual Improvement:</h4>
+                            <p>By adding more records to the JSON file over time, the app becomes increasingly accurate.
+                                This iterative approach ensures that the app gets better without needing a backend or
+                                third-party API, keeping it simple and completely under my control.</p>
+                        </li>
+                    </ol>
+                    <p>This method allows me to avoid complex integrations with sensitive APIs or external data sources,
+                        making the app fully independent. It also means I can continue improving the app at my own pace
+                        while learning more about how to structure and utilize data effectively.</p>
+                </n-gi>
+            </n-grid>
+            <n-divider />
+            <n-grid :x-gap="24">
+                <n-gi :span="6">
+                    <h2>December 8, 2024</h2>
+                </n-gi>
+                <n-gi :span="18">
+                    <h2>Enhancing Traffic Light State Prompts</h2>
+                    <p>On December 8, 2024, I made further progress on my app by refining the text prompts displayed at
+                        the bottom of the screen for different traffic light states. These prompts are designed to guide
+                        users with clear and helpful instructions based on the current light state.</p>
+                    <h4>Green Light Logic:</h4>
+                    <p>While working on the green light state, I realized it needed more than just the basic "Please
+                        Cross" message. I added a crucial logic check to account for scenarios where, even though the
+                        green light hasn’t ended, it’s no longer safe to cross.</p>
+                    <p>Here’s how it works:</p>
+                    <ul>
+                        <li>
+                            <p><b>"请通行 Please Cross"</b>: This is the default message displayed during a green light
+                                when
+                                there is enough time to cross safely.</p>
+                        </li>
+                        <li>
+                            <p><b>"无法通行 Unable to Cross"</b>: If the user reaches the crosswalk but doesn’t have enough
+                                time
+                                to safely make it to the other side before the light turns red, the app displays this
+                                warning instead. This ensures users don’t start crossing when it’s unsafe, helping them
+                                avoid risky situations.</p>
+                        </li>
+                    </ul>
+                    <p>Today’s update significantly improves the app’s usability by combining practical logic with
+                        user-friendly guidance. These prompts ensure users can make informed decisions about whether or
+                        not to cross, adding another layer of functionality and safety to the app.</p>
+                </n-gi>
+            </n-grid>
+            <n-divider />
+            <n-grid :x-gap="24">
+                <n-gi :span="6">
+                    <h2>December 4, 2024</h2>
+                </n-gi>
+                <n-gi :span="18">
+                    <h2>Simplifying My Project: Focusing on One Intersection</h2>
+                    <p>On December 4, 2024, I made the tough but necessary decision to scale back the scope of my
+                        project. Instead of building a city-wide "Green Light Go" app, I shifted my focus to just the
+                        pedestrian traffic light near my home. This change made the project much more manageable, as I
+                        only needed to record detailed information about this single traffic light.</p>
+                    <p>With this simplified scope, I could focus entirely on perfecting the app’s core functionality
+                        rather than worrying about data integrations or large-scale implementations.</p>
+                    <h4>Key Functionalities:</h4>
+                    <p>Before diving into the detailed recording of traffic light transitions, I first needed to
+                        complete the app’s main logic. The critical distinction lies in how the app handles red light
+                        and green light states:</p>
+                    <ol>
+                        <li>
+                            <h4>Red Light State:</h4>
+                            <p>During a red light, the app simply displays a countdown timer showing the remaining time
+                                until the light changes. This straightforward feature ensures users know exactly how
+                                long they need to wait.</p>
+                        </li>
+                        <li>
+                            <h4>Green Light State:</h4>
+                            <p>The green light state is the heart of my app. In addition to the countdown, I added a
+                                feature that calculates and displays how much distance I have left before reaching the
+                                crosswalk’s starting point and whether I can safely cross before the light turns red.
+                                This functionality helps users make quick, informed decisions.</p>
+                        </li>
+                    </ol>
+                    <p>Now I successfully implemented the basic traffic light display. The app now shows the red light
+                        countdown and automatically switches to the green light state when the countdown ends. It felt
+                        amazing to see the logic come together and work seamlessly. This marks a significant milestone
+                        in my project as the app begins to take shape!</p>
+                </n-gi>
+            </n-grid>
+            <n-divider />
+            <n-grid :x-gap="24">
+                <n-gi :span="6">
+                    <h2>November 27, 2024</h2>
+                </n-gi>
+                <n-gi :span="18">
+                    <h2>The Challenge of Accessing Traffic Light Data</h2>
+                    <p>Over the past two weeks, I’ve been working tirelessly to secure an interface for my app. My
+                        original plan was to collaborate with the Xiamen Traffic Bureau to gain access to their traffic
+                        light data. This would have allowed my app to automatically switch to the nearest pedestrian
+                        traffic light based on the user’s location. Unfortunately, this idea didn’t pan out as I had
+                        hoped.</p>
+                    <h4>Why It Didn’t Work</h4>
+                    <p>Being a minor, I encountered a significant barrier: the Traffic Bureau didn’t trust that I could
+                        safely manage and use their sensitive data. Even if I were granted access, I would have needed
+                        to pay an expensive security deposit to use their system. This was a cost I simply couldn’t
+                        afford.</p>
+                    <p>To explore alternatives, I researched companies that have successfully integrated traffic
+                        systems, like Gaode Maps (AutoNavi), Tencent Maps, and Baidu Maps. Sadly, I discovered that
+                        these companies also pay large deposits to access traffic data interfaces, and the APIs they
+                        offer are restricted. Among them, Baidu Maps does provide APIs, but they’re only available to
+                        businesses, not individuals like me.</p>
+                    <h4>Refocusing My Efforts</h4>
+                    <p>Faced with these challenges, I had to let go of the idea of collaborating with the Traffic
+                        Bureau. It was disappointing, but I decided not to let this setback stop me. Instead, I shifted
+                        my focus back to what I could achieve on my own. My goal now is to complete the app, even if it
+                        only serves me as its primary user.</p>
+                    <h4>Why I’m Still Motivated</h4>
+                    <p>Despite the obstacles, I believe in the value of this app. Even without access to live traffic
+                        data, it can still help me manage my mornings better by providing a structured and personalized
+                        experience. This project is no longer just about functionality—it’s about pushing myself to see
+                        it through, learning along the way, and proving that I can create something meaningful.</p>
+                </n-gi>
+            </n-grid>
+            <n-divider />
+            <n-grid :x-gap="24">
+                <n-gi :span="6">
                     <h2>November 15, 2024</h2>
                 </n-gi>
                 <n-gi :span="18">
