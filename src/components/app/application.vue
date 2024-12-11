@@ -236,7 +236,7 @@ function readJSON() {
                                     :border-radius="4" :fill-border-radius="0" :color="'#d30000'" :circle-gap="0.5"
                                     :rail-color="changeColor(themeVars.errorColor, { alpha: 0.2 })"
                                     :indicator-text-color="themeVars.errorColor" :show-indicator="false" />
-                                <div class="tipText" style="font-size: 64px"><b>等待中</b></div>
+                                <div class="tipText"><b>等待中</b></div>
                             </div>
                         </div>
                         <div v-else>
@@ -251,8 +251,8 @@ function readJSON() {
                                         :rail-color="changeColor(themeVars.successColor, { alpha: 0.2 })"
                                         :indicator-text-color="themeVars.successColor" :show-indicator="false" />
                                     <transition mode="out-in">
-                                        <div v-if="distance" style="font-size: 64px"><b>请通行</b></div>
-                                        <div v-else style="font-size: 64px"><b>无法通过</b></div>
+                                        <div class="tipText" v-if="distance"><b>请通行</b></div>
+                                        <div class="tipText" v-else><b>无法通过</b></div>
                                     </transition>
                                     <!-- <n-qr-code id="qr-code"
                                         value="https://oscarlin7.github.io/my-website/#/application" /> -->
